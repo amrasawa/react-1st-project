@@ -1,16 +1,16 @@
 
 import './App.css';
-import navbar from "./Navbar";
-import footer from "./Footer";
-import clients from "./Clients";
-import products from "./Products";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import Clients from "./Clients";
+import Products from "./Products";
 
 export default function App(){
   return <div>
-    <navbar/>
-    <clients/>
-    <products/>
-    <footer/>
+    <Navbar/>
+    <Clients/>
+    <Products/>
+    <Footer/>
   </div>
 }
 
